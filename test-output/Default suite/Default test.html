@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 15 13:40:50 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>60 seconds (60751 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Login()'><b>Login</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>10</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Delete_default_Topic2()'><b>Delete_default_Topic2</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Validate_deleted_default_topic()'><b>Validate_deleted_default_topic</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Delete_Added_Topic()'><b>Delete_Added_Topic</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Edit_default_topic_2()'><b>Edit_default_topic_2</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>1</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Create_1_to_1_Meet_check_it_properly_created()'><b>Create_1_to_1_Meet_check_it_properly_created</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>4</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Enable_meeting_toggle()'><b>Enable_meeting_toggle</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Edit_added_topic()'><b>Edit_added_topic</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Meeting_Attendee_empty_Tab_validation()'><b>Meeting_Attendee_empty_Tab_validation</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>2</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Check_reject_1_to_1_meet()'><b>Check_reject_1_to_1_meet</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>6</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Edit_default_topic_1()'><b>Edit_default_topic_1</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>1</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Enable_Meeting_toggle_reflection_from_general_home_meeting()'><b>Enable_Meeting_toggle_reflection_from_general_home_meeting</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>1</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Edit_default_topic_3()'><b>Edit_default_topic_3</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>1</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Check_reject_functionality_working_1_to_1_meet()'><b>Check_reject_functionality_working_1_to_1_meet</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>2</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Add_new_topic_check_reflection_in_Meeting()'><b>Add_new_topic_check_reflection_in_Meeting</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Delete_default_Topic1()'><b>Delete_default_Topic1</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Delete_default_Topic3()'><b>Delete_default_Topic3</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Created_meet_properly_check_or_not_by_switching_user()'><b>Created_meet_properly_check_or_not_by_switching_user</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>10</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Navigate_to_setting_page()'><b>Navigate_to_setting_page</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Disable_default_topic()'><b>Disable_default_topic</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Add_Topic()'><b>Add_Topic</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>1</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+<tr>
+<td title='com.profit.qa.testpages.SettingsMeetingTest.Enable_Meeting_toggle_in_setting_check_relfection_in_CFRs_Converstation_Meeting()'><b>Enable_Meeting_toggle_in_setting_check_relfection_in_CFRs_Converstation_Meeting</b><br>Test class: com.profit.qa.testpages.SettingsMeetingTest</td>
+<td></td>
+<td>0</td>
+<td>com.profit.qa.testpages.SettingsMeetingTest@4a83a74a</td></tr>
+</table><p>
+</body>
+</html>

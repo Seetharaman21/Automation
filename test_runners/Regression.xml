@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+<listeners>
+	<listener class-name="com.profit.qa.ExtentReportListener.ExtentReporter">
+<test name="Page Loading">
+	<parameter name="BaseURL" value="https://stag-app.profitokr.net/app/p-signup.jsp" />
+<classes>
+	
+	<class name="com.profit.qa.testpages.SignupPageTest">
+ <methods>
+               <include name="validateSignupPageLoad" />
+               <include name="validateSignupFirstNameEmptyValidation" />
+               <include name="validateSignupSecondNameEmptyValidation" />
+               <include name="validateSignupEmailEmptyValidation" />
+               <include name="validateSignupInvalidEmailValidation" />
+               <include name="SignupBasicForm" />
+               <include name="passwordPageLoadChek" />
+               <include name="firstPasswordEmptyTabValidation" />
+               <include name="secondPasswordEmptyTabValidation" />
+               <include name="PasswordMismatchValidation" />
+               <include name="doSignupPasswordForm" />
+               <include name="BusinessNameEmptyTabValidation" />
+               <include name="SignupBusinessForm" />
+</methods>
+</class>
+     
+      <class name="com.profit.qa.testpages.LoginPageTest">
+<methods>
+               <include name="verifyloginpagetitle" />
+               <include name="checkInvalidPassowrdWarning" />
+               <include name="checkInvalidEmailWarning" />
+               <include name="checkMultipleAttemptWarning" />
+               <include name="checkSuccessloginText" />
+</methods>
+
+</class>
+
+</classes>
+</test>
+    
+    
+ 
+    
+</listener>
+</listeners>
+</suite> <!-- Suite -->
